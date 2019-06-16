@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sr_help_layout_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sr_screen_border_padding"
+        android:layout_marginRight="@dimen/sr_screen_border_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sr_help_layout_text_header"
+            style="@style/SrHelpOverlayTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="@string/sr_help_layout_title" />
+
+        <TextView
+            android:id="@+id/sr_help_layout_text_content"
+            style="@style/SrHelpOverlayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="20dp"
+            android:text=" La Tunisie vécu une succession des civilisations ce qu'il la rendre l'une des meilleurs destination touristique" />
+        <TextView
+            style="@style/SrHelpOverlayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="20dp"
+            android:text=" TuniMon est une application idée a pour objectif de définir les monuments et les bâtiments célèbres, découvrir les meilleurs sites à visiter et leurs historiques." />
+        <TextView
+            style="@style/SrHelpOverlayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="20dp"
+            android:text="Application utilise la technologie de deep learning, développé par Ayadi wassim et Mohamed zghal, deux étudiants, en deuxieme années cycle d'ingénieurs." />
+        <TextView
+            style="@style/SrHelpOverlayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="  Contact :" />
+        <TextView
+            style="@style/SrHelpOverlayText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="A.Wassim : wassim_ayedi@icloud.com" />
+        <TextView
+        style="@style/SrHelpOverlayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Z.Mohamed : medzghal2@gmail.com" />
+
+    </LinearLayout>
+
+</ScrollView>

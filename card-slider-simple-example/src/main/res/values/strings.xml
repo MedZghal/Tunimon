@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">TuniMon</string>
+    <string name="sr_help_layout_title">À propos</string>
+    <string name="text1">Sfax (arabe : صفاقس), deuxième ville et centre économique de Tunisie, est une ville portuaire de l\'est du pays située à environ 270 kilomètres de Tunis…</string>
+    <string name="text2">Est un village de Tunisie situé à une vingtaine de kilomètres au nord-est de Tunis. Il compte 5 911 habitants selon le recensement de 2014</string>
+    <string name="text3">Egalement appelée mosquée Oqba Ibn Nafi (arabe : جامع عقبة بن نافع) en souvenir de son fondateur Oqba Ibn Nafi, est l\'une des principales mosquées de Tunisie située à Kairouan. </string>
+    <string name="text4">Aussi appelé Colisée de Thysdrus, est un amphithéâtre romain situé dans l\'actuelle ville tunisienne d\'El Jem, l\'antique Thysdrus de la province romaine d\'Afrique.</string>
+    <string name="text5">Est une ville portuaire de l\'Est de la Tunisie, située à 143 kilomètres au sud de Tunis, et ouverte sur le golfe d\'Hammamet (mer Méditerranée)</string>
+    <string name="sr_help_layout_content_text"></string>
+    <string name="dscphb">
+      Habib Bourguiba, de son nom complet Habib Ben Ali Bourguiba, né probablement le 3 août 1903 à Monastir et mort le 6 avril 2000 dans la même ville, est un homme d\'État tunisien, président de la République entre 1957 et 1987.
+    </string>
+    <string name="dscpdw">
+    </string>
+    <string name="dscpav">
+      Le grand édifice que vous voyez n’est que l’horloge rectangulaire qui a pris la place de La statue équestre du président Bourguiba retirée le 11 octobre 1988 sous le régime de Zine-Elabidine Ben Ali. L’esplanade devint alors, la place du 7-Novembre 1987.
+     La Tour de l’Horloge est un édifice de 32 m, de section carrée (4 m de côté). De couleur bronze, elle est habillée de modules métalliques en forme de rosace de 16 pétales. Le cadrant de l’horloge a une forme pyramidale dorée.
+    </string>
+    <string name="sr_contact_us_btn_link" translatable="false">
+        https://www.ramotion.com/?utm_source=showroom&amp;utm_medium=special&amp;utm_campaign=contactact_us_butoon</string>
+    <string name="sr_bottom_bar_facebook_link" translatable="false">https://www.facebook.com/Ramotion</string>
+    <string name="sr_bottom_bar_dribble_link" translatable="false">
+        https://dribbble.com/ramotion?utm_source=showroom&amp;utm_medium=special&amp;utm_campaign=showroomandroid</string>
+    <string name="sr_bottom_bar_instagram_link">https://instagram.com/ramotion</string>
+    <string name="sr_bottom_bar_twitter_link">https://twitter.com/ramotion</string>
+    <string name="sr_bottom_bar_github_link">https://github.com/ramotion</string>
+    <string name="sr_contact_us_btn_text">CONTACT US</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="order_id_mock" translatable="false"># 1234–5678</string>
+    <string name="price_mock" translatable="false">$25</string>
+    <string name="requests_count_mock" translatable="false">5</string>
+    <string name="requests_count_badge" translatable="false">REQUESTS</string>n
+    <string name="weight_mock" translatable="false">50 oz</string>
+    <string name="weight_badge" translatable="false">WEIGHT</string>
+    <string name="pledge_mock" translatable="false">$150</string>
+    <string name="pledge_badge" translatable="false">PLEDGE</string>
+    <string name="sender_badge" translatable="false">SENDER</string>
+    <string name="client_name_mock" translatable="false">Edward Norton</string>
+    <string name="rating_mock" translatable="false">(26)</string>
+    <string name="from_badge" translatable="false">FROM</string>
+    <string name="to_badge" translatable="false">TO</string>
+    <string name="delivery_date_badge" translatable="false">DELIVERY DATE</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false">May 16, 2016</string>
+    <string name="deadline_badge" translatable="false">REQUEST DEADLINE</string>
+    <string name="deadline_time_mock" translatable="false">24 minutes</string>
+    <string name="request_btn_text" translatable="false">REQUEST</string>
+    <string name="btn_annotation_mock" translatable="false">5 people have sent a request</string>
+    <string name="content_from1_mock">W 90th St</string>
+    <string name="content_from2_mock">New York, NY 10025</string>
+    <string name="content_to1_mock">46th Ave</string>
+    <string name="content_to2_mock">Woodside, NY 11101</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="user_name">Last and first name</string>
+    <string name="telephone">Telephone</string>
+    <string name="mail">Adress mail</string>
+    <string name="pat_name">Heritage name</string>
+    <string name="pat_desc">Heritage description</string>
+
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+</resources>

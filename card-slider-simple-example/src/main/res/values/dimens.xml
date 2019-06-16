@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recycler_view_left_offset">9dp</dimen>
+    <dimen name="left_offset">61dp</dimen>
+    <dimen name="card_width">148dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="sr_screen_border_padding">30dp</dimen>
+    <dimen name="gv_details_avatar_border">5dp</dimen>
+
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <item name="wrap_content" format="integer" type="dimen">-2</item>
+
+    <dimen name="auth_page_margin">24dp</dimen>
+    <dimen name="folded_size">17sp</dimen>
+    <dimen name="unfolded_size">26sp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+    <dimen name="input_width">220dp</dimen>
+    <dimen name="card_padding">60dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="bottom_sheet_corner_radius">15dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+
+</resources>

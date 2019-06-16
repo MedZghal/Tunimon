@@ -1,0 +1,124 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="TemperatureTextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/temperature_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PlaceTextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ClockTextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DescriptionTextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+    <style name="SrTitleBrandText">
+        <item name="android:textColor">@color/sr_main_text</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textScaleX">1.1</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SrSliderPositionCounter">
+        <item name="android:textColor">@color/sr_slider_position_counter</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SrHelpOverlayTextTitle" parent="SrHelpOverlayText">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@color/sr_main_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SrHelpOverlayText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/sr_main_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="SrButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ContentImageBadgeTitle" parent="AppTheme">
+        <item name="android:alpha">0.5</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="ContentImageBadgeText" parent="AppTheme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="ContentMainBadgeTitle" parent="AppTheme">
+        <item name="android:textColor">@color/contentBadgeTitle</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="TitleBadgeText" parent="AppTheme">
+        <item name="android:textColor">@color/titleBadgeText</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="TitleBadgeTitle" parent="AppTheme">
+        <item name="android:textColor">@color/titleBadgeTitle</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="homeBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget"/>
+    <style name="Widget.TextInputLayout">
+        <item name="android:layout_height">@dimen/wrap_content</item>
+        <item name="android:layout_width">@dimen/input_width</item>
+        <item name="android:textColorHint">@color/color_input_hint</item>
+    </style>
+    <style name="Widget.TextEdit">
+        <item name="android:layout_height">@dimen/match_parent</item>
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:textColorHighlight">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:padding">@dimen/text_padding</item>
+    </style>
+    <style name="Widget.Hint">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   android:visibility="gone">
+
+    <!-- content header line -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgContentTop"
+        android:paddingBottom="7dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Amphitéatre jem"
+            android:id="@+id/nom_desc"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/menu_icon" />
+
+    </RelativeLayout>
+
+    <!-- content header image -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/head_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jem" />
+
+        <TextView
+            android:id="@+id/gouv_desc"
+            style="@style/ContentImageBadgeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/head_image"
+            android:layout_alignLeft="@id/head_image"
+            android:layout_alignStart="@id/head_image"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:text="Mahdia" />
+
+        <TextView
+            style="@style/ContentImageBadgeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/gouv_desc"
+            android:layout_alignLeft="@id/gouv_desc"
+            android:layout_alignStart="@id/gouv_desc"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:text="Gouvernorat" />
+
+        <TextView
+            android:id="@+id/ville_desc"
+            style="@style/ContentImageBadgeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/head_image"
+            android:layout_alignEnd="@id/head_image"
+            android:layout_alignRight="@id/head_image"
+            android:paddingBottom="10dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
+            android:text="El Jem" />
+
+        <TextView
+            style="@style/ContentImageBadgeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ville_desc"
+            android:layout_alignLeft="@id/ville_desc"
+            android:layout_alignStart="@id/ville_desc"
+            android:text="Ville" />
+
+        <TextView
+            android:id="@+id/head_image_center_text"
+            style="@style/ContentImageBadgeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/head_image"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            style="@style/ContentImageBadgeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/head_image_center_text"
+            android:layout_alignLeft="@id/head_image_center_text"
+            android:layout_alignStart="@id/head_image_center_text"
+             />
+
+
+    </RelativeLayout>
+
+    <!-- content body layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgContent"
+        android:orientation="vertical"
+        android:paddingBottom="6dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="9dp">
+
+
+
+        <!-- divider line -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="9dp"
+            android:src="@color/contentDividerLine" />
+
+        <!-- addresses part -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/desc"
+               android:text="L'amphithéâtre d'El Jem (arabe : مسرح الجم), aussi appelé Colisée de Thysdrus, est un amphithéâtre romain situé dans l'actuelle ville tunisienne d'El Jem, l'antique Thysdrus de la province romaine d'Afrique.
+
+Construit vraisemblablement vers le premier tiers du iiie siècle, même si sa datation a fait l'objet de débats, il prend la succession de deux édifices du même genre, dont l'étude a permis d'analyser la genèse de ces constructions monumentales destinées aux loisirs. Il a probablement abrité des combats de gladiateurs ainsi que des courses de chars et autres jeux du cirque, mais surtout des exhibitions de bêtes sauvages et des reconstitutions de chasses aux fauves particulièrement prisées"/>
+
+        </LinearLayout>
+
+
+
+        <!-- request button -->
+        <TextView
+            android:id="@+id/localiser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/btnRequest"
+            android:padding="10dp"
+            android:text="LOCALISER"
+            android:textAlignment="center"
+            android:textColor="@color/mainTextColor"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
